@@ -1,4 +1,3 @@
-# osmaas.github.io
 Street Network Analysis
 OSMnx is a Python package that allows users to download and analyze street networks and other infrastructure data from OpenStreetMap. It was developed by Geoff Boeing, an urban planning researcher at the University of Southern California.
 
@@ -22,4 +21,5 @@ Eigenvector centrality is a metric used in network analysis that measures the im
 Closeness centrality is a metric used in network analysis that measures how easily a street segment can be reached from all other nodes in the network. In OSMnx, closeness centrality is used to measure the importance of each street segment in terms of its accessibility and mobility within the street network. In practical terms, closeness centrality can be used to identify important streets for accessibility and mobility within a city. For example, a street with high closeness centrality may be an important corridor for public transportation or an important pedestrian route between different parts of the city.
 
 Betweenness centrality is a metric used in network analysis that measures the importance of a street segment for the flow of information or resources between other nodes in the network. In OSMnx, betweenness centrality is used to measure the importance of each street segment in terms of its ability to connect different parts of the street network. In practical terms, betweenness centrality can be used to identify important streets for connectivity and mobility within a city. For example, a street with high betweenness centrality may be an important route for emergency vehicles, or an important pedestrian or bicycle route connecting different neighborhoods.
-To visualize the results a dashboard has been published in the following path.
+To visualize the results a dashboard has been published in the following path: https://erajabi.github.io/osmaas/
+
