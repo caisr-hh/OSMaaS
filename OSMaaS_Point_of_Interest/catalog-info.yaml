@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: halland-poi
+  description: Point Of Interest.
+  annotations:
+    github.com/project-slug: polestar/halland-poi
+    backstage.io/techdocs-ref: dir:.
+  golar:
+    type: mobile-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: polestar/conx-innovation

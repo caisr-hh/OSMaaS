@@ -1,0 +1,112 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:725740188757665366",
+      "lastPropertyId": "3:6485505758767336610",
+      "name": "Category",
+      "properties": [
+        {
+          "id": "1:5993134100738535085",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1077151982510865485",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:6485505758767336610",
+          "name": "iconRes",
+          "type": 5
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:3279358879968365026",
+          "name": "subCategories",
+          "targetId": "3:6432483931246122781"
+        }
+      ]
+    },
+    {
+      "id": "2:5075525656973862927",
+      "lastPropertyId": "6:3604651622019386649",
+      "name": "POIItem",
+      "properties": [
+        {
+          "id": "1:2707362083465631375",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7979395346492179695",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:3310637665212511724",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "4:7202051310861307037",
+          "name": "lat",
+          "type": 8
+        },
+        {
+          "id": "5:5649303364328883832",
+          "name": "lng",
+          "type": 8
+        },
+        {
+          "id": "6:3604651622019386649",
+          "name": "isFavorite",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:6432483931246122781",
+      "lastPropertyId": "2:4117805407103442944",
+      "name": "SubCategory",
+      "properties": [
+        {
+          "id": "1:2947895129582160073",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4117805407103442944",
+          "name": "title",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:2115647470932430084",
+          "name": "points",
+          "targetId": "2:5075525656973862927"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "3:6432483931246122781",
+  "lastIndexId": "0:0",
+  "lastRelationId": "2:2115647470932430084",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

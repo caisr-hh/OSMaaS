@@ -1,0 +1,36 @@
+name: Android CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'adopt'
+
+      - name: Build and run tests
+        run: ./gradlew clean jacocoUnitTestReport
+
+      - name: List coverage report directory
+        run: ls -R automotive/build/reports/jacoco/jacocoUnitTestReport
+
+      - name: Print coverage report file
+        run: cat automotive/build/reports/jacoco/jacocoUnitTestReport/jacocoUnitTestReport.xml
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v3
+        with:
+          name: coverage-report
+          path: automotive/build/reports/jacoco/jacocoUnitTestReport/jacocoUnitTestReport.xml
+          retention-days: 1
