@@ -1,4 +1,4 @@
-Street Network Analysis
+### Street Network Analysis
 OSMnx is a Python package that allows users to download and analyze street networks and other infrastructure data from OpenStreetMap. It was developed by Geoff Boeing, an urban planning researcher at the University of Southern California.
 
 With OSMnx, users can easily download and visualize street networks from anywhere in the world at any scale, from small neighborhoods to entire cities. It can also be used to calculate various metrics related to street networks, such as centrality, connectivity, and accessibility.
