@@ -13,3 +13,11 @@ This study proposes a knowledge-based framework based on Artificial Intelligence
 
 Link to the article: https://www.mdpi.com/2071-1050/15/3/2717
 </br>Link to the project code: https://github.com/caisr-hh/OSMaaS/tree/main/OSMaaS_knowledge_based_AI_framework#readme
+
+
+### Cluster Analysis on Sustainable Transportation: The Case of New York City Open Data
+
+Artificial Intelligence (AI) allows the analysis of complex transportation domains from various perspectives. Sustainability is one of the important transportation factors vital for a robust, fair, and efficient living environment and a city's livability. This study leverages different feature engineering techniques on the New York City mobility dataset to identify the significant sustainability factors and employs the k-means clustering technique to cluster the commuters based on their transportation modes and demographics. The NYC mobility dataset has provided vast information to extract relevant patterns or features influencing New Yorkers' sustainable mode of transportation choice. Machine learning techniques and graph analysis can predict trip destinations or the purpose of commuters’ trips based on different features in the dataset and identify commuters’ patterns.
+
+Link to the article: [https://www.mdpi.com/2071-1050/15/3/2717](https://ieeexplore.ieee.org/document/9801569)
+</br>Link to the project code: https://github.com/caisr-hh/OSMaaS/tree/main/OSMaaS_NYC_Mobility_Clustering 
