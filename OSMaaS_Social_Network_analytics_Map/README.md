@@ -1,9 +1,11 @@
-### Street Network Analysis
+### Identifying the Most Important Amenities Using Street Network Analysis
+
+
 OSMnx is a Python package that allows users to download and analyze street networks and other infrastructure data from OpenStreetMap. It was developed by Geoff Boeing, an urban planning researcher at the University of Southern California.
 
-With OSMnx, users can easily download and visualize street networks from anywhere in the world at any scale, from small neighborhoods to entire cities. It can also be used to calculate various metrics related to street networks, such as centrality, connectivity, and accessibility.
+With OSMnx, users can easily download and visualize street networks from anywhere in the world at any scale, from small neighbourhoods to entire cities. It can also be used to calculate various metrics related to street networks, such as centrality, connectivity, and accessibility.
 
-In addition to street networks, OSMnx can also download and analyze other types of infrastructure data from OpenStreetMap, such as buildings, parks, and waterways. Overall, OSMnx is a powerful tool for urban planners, geographers, and researchers who are interested in understanding and analyzing urban environments.
+In addition to street networks, OSMnx can download and analyze other infrastructure data from OpenStreetMap, such as buildings, parks, and waterways. Overall, OSMnx is a powerful tool for urban planners, geographers, and researchers who are interested in understanding and analyzing urban environments.
 
 In this project we have used the capabilities of OSMnx to identify the various road networks in the city. We have plotted driveable road network for cities like Halmstad, Sweden; Varberg, Sweden; Toronto, Canada and Helsinki, Finland.
 
