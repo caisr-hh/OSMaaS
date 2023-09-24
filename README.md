@@ -21,3 +21,9 @@ Artificial Intelligence (AI) allows the analysis of complex transportation domai
 
 Link to the article:  https://ieeexplore.ieee.org/document/9801569
 </br>Link to the project code: https://github.com/caisr-hh/OSMaaS/tree/main/OSMaaS_NYC_Mobility_Clustering 
+
+### Identifying the Most Important Amenities in a City Using Social Network Analytics
+
+Identifying centrality measures using social network analytics techniques is an interesting topic that can help highlight various amenities around the city like hospitals, bus stops, parking spots, electric vehicle charging stations, bicycle rental places and bicycle parking spots. Street centrality refers to a set of metrics that measure the importance of each street segment within a street network. Street centrality can be used to identify the most important or central streets within a network, which can be useful for a variety of urban planning and transportation applications. 
+In this work, we used OSMnx, which is a Python package that allows users to analyze street networks and other infrastructure data from OpenStreetMap. It is a powerful tool for urban planners, geographers, and researchers who are interested in understanding and analyzing urban environments. We utilized OSMnx to calculate several different centrality measures that can be calculated for a street network, including Degree Centrality, Eigenvector Centrality, Closeness Centrality and Betweenness Centrality.
+Link to work: https://github.com/caisr-hh/OSMaaS/tree/main/OSMaaS_Social_Network_analytics_Map 
