@@ -15,5 +15,5 @@ In OSMnx, street centrality refers to a set of metrics that measure the importan
 <br/>Betweenness centrality is a metric used in network analysis that measures the importance of a street segment for the flow of information or resources between other nodes in the network. In OSMnx, betweenness centrality is used to measure the importance of each street segment in terms of its ability to connect different parts of the street network. In practical terms, betweenness centrality can be used to identify important streets for connectivity and mobility within a city. For example, a street with high betweenness centrality may be an important route for emergency vehicles, or an important pedestrian or bicycle route connecting different neighborhoods.
 
 <p/>
-We create a dashboard published [here](https://erajabi.github.io/osmaas) as a proof of concept. 
+We created a dashboard published at https://erajabi.github.io/osmaas as a proof of concept. 
 
