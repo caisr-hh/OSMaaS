@@ -139,28 +139,28 @@ Once these steps are completed, the interface is set up and ready for further de
 
 ## Key Dependencies
 The project relies on several external libraries and frameworks to enhance functionality and streamline development. The dependencies are included in ‘build.gradle.kts’ file 
-    implementation(libs.core.ktx)
-    implementation(libs.appcompat)
-    implementation(libs.material)
-    implementation(libs.constraintlayout)
-    implementation(libs.navigation.fragment.ktx)
-    implementation(libs.navigation.ui.ktx)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.test.ext.junit)
-    androidTestImplementation(libs.espresso.core)
-    implementation(libs.androidx.app.automotive)
-    implementation(libs.timber)
-libs.core.ktx: The Core KTX module provides extensions for common libraries that are part of the Android framework.
-libs.appcompat: The AppCompat library provides backward-compatible versions of Android UI components to ensure consistent behavior across different Android versions.
-libs.material: The Material Design Components library provides ready-to-use UI components following the Material Design guidelines.
-libs.constraintlayout: The ConstraintLayout library is a flexible layout manager for Android that allows you to create complex UIs with a flat view hierarchy.
-libs.navigation.fragment.ktx: This is part of the Android Navigation component, specifically the Kotlin extensions (ktx) for working with fragments in the navigation graph.
-libs.navigation.ui.ktx: Similar to the previous library, this Kotlin extension is for working with UI components in the Android Navigation component.
-libs.junit: This references to the JUnit library, which is a widely-used testing framework for Java and Kotlin.
-libs.androidx.test.ext.junit: This is an extension or utility related to JUnit for AndroidX testing.
-libs.espresso.core: This refers to the Espresso testing framework, which is used for UI testing in Android applications.
-libs.androidx.app.automotive: This module is related to specifically tailored for in-car infotainment systems  for Android Automotive. 
-libs.timber: The Timber logging library simplifies logging in Android applications.
+* implementation(libs.core.ktx)
+* implementation(libs.appcompat)
+* implementation(libs.material)
+* implementation(libs.constraintlayout)
+* implementation(libs.navigation.fragment.ktx)
+* implementation(libs.navigation.ui.ktx)
+* testImplementation(libs.junit)
+* androidTestImplementation(libs.androidx.test.ext.junit)
+* androidTestImplementation(libs.espresso.core)
+* implementation(libs.androidx.app.automotive)
+* implementation(libs.timber)
+* libs.core.ktx: The Core KTX module provides extensions for common libraries that are part of the Android framework.
+* libs.appcompat: The AppCompat library provides backward-compatible versions of Android UI components to ensure consistent behavior across different Android versions.
+* libs.material: The Material Design Components library provides ready-to-use UI components following the Material Design guidelines.
+* libs.constraintlayout: The ConstraintLayout library is a flexible layout manager for Android that allows you to create complex UIs with a flat view hierarchy.
+* libs.navigation.fragment.ktx: This is part of the Android Navigation component, specifically the Kotlin extensions (ktx) for working with fragments in the navigation graph.
+* libs.navigation.ui.ktx: Similar to the previous library, this Kotlin extension is for working with UI components in the Android Navigation component.
+* libs.junit: This references to the JUnit library, which is a widely-used testing framework for Java and Kotlin.
+* libs.androidx.test.ext.junit: This is an extension or utility related to JUnit for AndroidX testing.
+* libs.espresso.core: This refers to the Espresso testing framework, which is used for UI testing in Android applications.
+* libs.androidx.app.automotive: This module is related to specifically tailored for in-car infotainment systems  for Android Automotive. 
+* libs.timber: The Timber logging library simplifies logging in Android applications.
 These dependencies are crucial in enabling various features and functionalities within the application.
 
 
