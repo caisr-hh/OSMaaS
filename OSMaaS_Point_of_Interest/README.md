@@ -165,23 +165,23 @@ These dependencies are crucial in enabling various features and functionalities 
 
 
 ## Use Case
-•	The User opens the POI app in the emulator.
-•	The app displays a menu with various categories of Points of Interest (POIs).
+* The User opens the POI app in the emulator.
+* The app displays a menu with various categories of Points of Interest (POIs).
  <img width="200" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/6b46824d-6b84-42f7-91e8-f6547e52a356">
 
-•	The User selects the category "Mat & Dryck" (Food & Drink) from the menu.
+* The User selects the category "Mat & Dryck" (Food & Drink) from the menu.
  <img width="200" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/66e78b19-b4f5-4229-b8d2-2abce62080bc">
 
-•	The app displays subcategories related to "Mat & Dryck," such as "Restauranger" (Restaurants). 
+* The app displays subcategories related to "Mat & Dryck," such as "Restauranger" (Restaurants). 
  <img width="196" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/c0fae832-6469-4920-a4d4-237573844b40">
 
-•	The User selects "Restauranger" (Restaurants) from the subcategories.
-•	The app fetches and displays a list of nearby restaurants within the selected category.
+* The User selects "Restauranger" (Restaurants) from the subcategories.
+* The app fetches and displays a list of nearby restaurants within the selected category.
  <img width="218" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/40bc8122-259e-4d69-b705-7fbd82752bef">
 
-•	The User is presented with a list of nearby restaurants, each accompanied by relevant details.
-•	If no restaurants are found in the nearby area, the app displays a message indicating that no results were found.
-•	If there is a connectivity issue, the app displays an error message and prompts the User to check their internet connection.
+* The User is presented with a list of nearby restaurants, each accompanied by relevant details.
+* If no restaurants are found in the nearby area, the app displays a message indicating that no results were found.
+* If there is a connectivity issue, the app displays an error message and prompts the User to check their internet connection.
 
 ## Troubleshooting
 1.	Java JDK Not Installed:
