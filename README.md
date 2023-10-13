@@ -18,7 +18,8 @@ Link to the article: https://www.mdpi.com/2071-1050/15/3/2717
 
 ### Point of Interest (POI) Android Automotive app
 The Point of Interest (POI) Android Automotive app is a powerful tool designed to enhance the navigation experience for vehicle users within the Android Automotive platform. This application leverages OpenStreetMap data to provide a curated selection of Points of Interest (POIs) based on the user's current location. By harnessing data from an open map library (OpenStreetMap), the app offers a carefully curated selection of POIs based on the user's current location. This app covers a wide range of categories, allowing users to effortlessly explore various points of interest, including dining options, electric vehicle charging stations, recreational facilities, scenic spots, as well as cultural and historical sites. Users can also mark their favorite places for quick and convenient access. The repository is focused on managing and displaying points of interest within the specific application. This could be useful in various contexts like travel, navigation, and tourism using OpenStreetMap. It allows users to filter and view different categories of points of interest, such as restaurants, landmarks, recreational facilities, etc. The repository could contribute to the broader OpenStreetMap ecosystem by creating tools, applications, or services that utilize OpenStreetMap data in innovative ways.
-</br>Link to the project code: https://github.com/caisr-hh/OSMaaS/tree/main/OSMaaS_Point_of_Interest
+</br>
+Link to the project code: https://github.com/caisr-hh/OSMaaS/tree/main/OSMaaS_Point_of_Interest
 <br/><br/>
 
 
@@ -35,6 +36,6 @@ Link to the article:  https://ieeexplore.ieee.org/document/9801569
 
 Identifying centrality measures using social network analytics techniques is an interesting topic that can help highlight various amenities around the city like hospitals, bus stops, parking spots, electric vehicle charging stations, bicycle rental places and bicycle parking spots. Street centrality refers to a set of metrics that measure the importance of each street segment within a street network. Street centrality can be used to identify the most important or central streets within a network, which can be useful for a variety of urban planning and transportation applications. 
 In this work, we used OSMnx, which is a Python package that allows users to analyze street networks and other infrastructure data from OpenStreetMap. It is a powerful tool for urban planners, geographers, and researchers who are interested in understanding and analyzing urban environments. We utilized OSMnx to calculate several different centrality measures that can be calculated for a street network, including Degree Centrality, Eigenvector Centrality, Closeness Centrality and Betweenness Centrality.
-<br/><br/>
+<br/>
 
 Link to the project code: https://github.com/caisr-hh/OSMaaS/tree/main/OSMaaS_Social_Network_analytics_Map 
