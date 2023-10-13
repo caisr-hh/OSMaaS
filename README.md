@@ -15,6 +15,13 @@ Link to the article: https://www.mdpi.com/2071-1050/15/3/2717
 </br>Link to the project code: https://github.com/caisr-hh/OSMaaS/tree/main/OSMaaS_knowledge_based_AI_framework#readme
 
 
+### Point of Interest (POI) Android Automotive app
+The Point of Interest (POI) Android Automotive app is a powerful tool designed to enhance the navigation experience for vehicle users within the Android Automotive platform. This application leverages OpenStreetMap data to provide a curated selection of Points of Interest (POIs) based on the user's current location. By harnessing data from an open map library (OpenStreetMap), the app offers a carefully curated selection of POIs based on the user's current location. This app covers a wide range of categories, allowing users to effortlessly explore various points of interest, including dining options, electric vehicle charging stations, recreational facilities, scenic spots, as well as cultural and historical sites. Users can also mark their favorite places for quick and convenient access. The repository is focused on managing and displaying points of interest within the specific application. This could be useful in various contexts like travel, navigation, and tourism using OpenStreetMap. It allows users to filter and view different categories of points of interest, such as restaurants, landmarks, recreational facilities, etc. The repository could contribute to the broader OpenStreetMap ecosystem by creating tools, applications, or services that utilize OpenStreetMap data in innovative ways.
+
+</br>Link to the project code: https://github.com/caisr-hh/OSMaaS/tree/main/OSMaaS_Point_of_Interest
+
+
+
 ### Cluster Analysis on Sustainable Transportation: The Case of New York City Open Data
 
 Artificial Intelligence (AI) allows the analysis of complex transportation domains from various perspectives. Sustainability is one of the important transportation factors vital for a robust, fair, and efficient living environment and a city's livability. This study leverages different feature engineering techniques on the New York City mobility dataset to identify the significant sustainability factors and employs the k-means clustering technique to cluster the commuters based on their transportation modes and demographics. The NYC mobility dataset has provided vast information to extract relevant patterns or features influencing New Yorkers' sustainable mode of transportation choice. Machine learning techniques and graph analysis can predict trip destinations or the purpose of commuters’ trips based on different features in the dataset and identify commuters’ patterns.
