@@ -170,22 +170,22 @@ These dependencies are crucial in enabling various features and functionalities 
 
 ## Use Case
 * The User opens the POI app in the emulator.
-* The app displays a menu with various categories of Points of Interest (POIs).
- <img width="200" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/6b46824d-6b84-42f7-91e8-f6547e52a356">
+* The User selects the category "Kultur & Historia" from the menu.
+<img width="468" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/e2551837-5ccb-463e-98a1-894672f578cb">
 
-* The User selects the category "Mat & Dryck" (Food & Drink) from the menu.
- <img width="200" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/66e78b19-b4f5-4229-b8d2-2abce62080bc">
+* The app displays subcategories related to " Kultur & Historia," such as "Kyrkor".
+<img width="468" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/02b799aa-0bc2-4850-8178-76b3642d4da5">
 
-* The app displays subcategories related to "Mat & Dryck," such as "Restauranger" (Restaurants). 
- <img width="196" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/c0fae832-6469-4920-a4d4-237573844b40">
+* The User selects "Kyrkor" from the subcategories.
+* The app fetches and displays a list of nearby churches within the selected category.
+<img width="468" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/6f405990-2394-4fca-9c23-42c8564a9f6c">
 
-* The User selects "Restauranger" (Restaurants) from the subcategories.
-* The app fetches and displays a list of nearby restaurants within the selected category.
- <img width="218" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/40bc8122-259e-4d69-b705-7fbd82752bef">
+* The User is presented with a list of nearby churches, each accompanied by relevant details. User can click on any church, which will show the details of the point of interest. User can click on ‘Navigera’ to get the directions from his current location. Also, there is an option to call the place as well.
+* <img width="468" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/7eccff3c-601c-409f-ba12-502cbba36501">
 
-* The User is presented with a list of nearby restaurants, each accompanied by relevant details.
-* If no restaurants are found in the nearby area, the app displays a message indicating that no results were found.
-* If there is a connectivity issue, the app displays an error message and prompts the User to check their internet connection.
+If no churches are found in the nearby area, the app displays a message indicating that no results were found.
+If there is a connectivity issue, the app displays an error message and prompts the User to check their internet connection.
+
 
 ## Troubleshooting
 1.	Java JDK Not Installed:
@@ -217,10 +217,4 @@ https://developer.android.com/training/cars
 
 Template from: https://github.com/android/car-samples/tree/03440d5e974a060d0216b5e02a7fe3c46b7b9469/car_app_library
 
-
-## Use Case
-The User opens the POI app in the emulator.
-The app displays a menu with various categories of Points of Interest (POIs).
-
-The User selects the category "Kultur & Historia" from the menu. 
 
