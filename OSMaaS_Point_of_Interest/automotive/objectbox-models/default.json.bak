@@ -35,7 +35,7 @@
     },
     {
       "id": "2:5075525656973862927",
-      "lastPropertyId": "6:3604651622019386649",
+      "lastPropertyId": "8:5026102157726329646",
       "name": "POIItem",
       "properties": [
         {
@@ -68,6 +68,16 @@
           "id": "6:3604651622019386649",
           "name": "isFavorite",
           "type": 1
+        },
+        {
+          "id": "7:246735734774796111",
+          "name": "busNumber",
+          "type": 9
+        },
+        {
+          "id": "8:5026102157726329646",
+          "name": "busTiming",
+          "type": 9
         }
       ],
       "relations": []

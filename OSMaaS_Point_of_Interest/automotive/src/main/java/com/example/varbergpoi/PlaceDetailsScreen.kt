@@ -15,6 +15,8 @@ import androidx.car.app.model.ActionStrip
 import androidx.car.app.model.CarColor
 import androidx.car.app.model.CarIcon
 import androidx.car.app.model.ForegroundCarColorSpan
+import androidx.car.app.model.ItemList
+import androidx.car.app.model.ListTemplate
 import androidx.car.app.model.Pane
 import androidx.car.app.model.PaneTemplate
 import androidx.car.app.model.Row
@@ -24,6 +26,13 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import com.example.varbergpoi.dummydata.POIItem
 import java.util.Locale
+
+
+// Data class to represent bus details
+data class BusDetails(val busNumber: String, val location: String)
+
+// Data class to represent bus schedule item
+data class BusScheduleItem(val station: String, val departureTime: String)
 
 /** A screen that displays a the details for a given place.  */
 class PlaceDetailsScreen(carContext: CarContext, private val item: POIItem) :
@@ -36,6 +45,10 @@ class PlaceDetailsScreen(carContext: CarContext, private val item: POIItem) :
     override fun onCreate(owner: LifecycleOwner) {
         mGeocoder = Geocoder(carContext)
     }
+
+
+
+
 
     override fun onGetTemplate(): Template {
         val paneBuilder = Pane.Builder()
@@ -108,6 +121,24 @@ class PlaceDetailsScreen(carContext: CarContext, private val item: POIItem) :
             if (hasSecondRow) {
                 paneBuilder.addRow(row4Builder.build())
             }
+
+            // Row Five (for bus timing)
+            val busTimingRowBuilder = Row.Builder().setTitle("Bus Schedule")
+
+            // Add a description.
+            if (item.busNumber.isNotEmpty()) {
+                hasSecondRow = true
+                busTimingRowBuilder.addText("${item.busNumber} - ${item.busStop}")
+
+                busTimingRowBuilder.addText("${item.busTiming}")
+
+            }
+
+            paneBuilder.addRow(busTimingRowBuilder.build())
+
+
+
+
 
             // Add a button with a navigate action.
             paneBuilder.addAction(
@@ -238,3 +269,5 @@ class PlaceDetailsScreen(carContext: CarContext, private val item: POIItem) :
         }
     }
 }
+
+

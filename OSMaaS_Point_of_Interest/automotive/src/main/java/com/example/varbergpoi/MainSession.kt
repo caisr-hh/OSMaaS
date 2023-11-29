@@ -16,6 +16,7 @@ import androidx.core.graphics.drawable.IconCompat
 import com.example.varbergpoi.dummydata.Category
 import com.example.varbergpoi.dummydata.POIItem
 import com.example.varbergpoi.dummydata.POIItem_
+import timber.log.Timber
 
 
 class MainSession : Session() {
@@ -23,6 +24,7 @@ class MainSession : Session() {
         return if (hasLocationPermission())
             MainScreen(carContext)
         else {
+            Timber.d("Permission Read main screen")
             carContext.getCarService(ScreenManager::class.java).push(MainScreen(carContext))
             LocationPermissionScreen(carContext)
         }
@@ -36,9 +38,11 @@ class MainSession : Session() {
 
 class MainScreen(carContext: CarContext) : Screen(carContext) {
     override fun onGetTemplate(): Template {
-
+        Timber.d("Reading main screen")
         val categoryBox = ObjectBox.boxStore.boxFor(Category::class.java)
+        Timber.d("Reading categoryBox")
         val poiBox = ObjectBox.boxStore.boxFor(POIItem::class.java)
+        Timber.d("Reading poiBox")
 
         val gridItemListBuilder = ItemList.Builder()
 

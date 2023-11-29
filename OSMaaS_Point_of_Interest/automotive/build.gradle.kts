@@ -85,4 +85,6 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation(libs.androidx.app.automotive)
     implementation(libs.timber)
+    implementation("com.opencsv:opencsv:5.9")
+
 }
