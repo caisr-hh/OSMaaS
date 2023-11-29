@@ -181,7 +181,7 @@ These dependencies are crucial in enabling various features and functionalities 
 <img width="468" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/6f405990-2394-4fca-9c23-42c8564a9f6c">
 
 * The User is presented with a list of nearby churches, each accompanied by relevant details. User can click on any church, which will show the details of the point of interest. User can click on ‘Navigera’ to get the directions from his current location. Also, there is an option to call the place as well.
-* <img width="468" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/7eccff3c-601c-409f-ba12-502cbba36501">
+<img width="468" alt="image" src="https://github.com/caisr-hh/OSMaaS/assets/2185586/7eccff3c-601c-409f-ba12-502cbba36501">
 
 If no churches are found in the nearby area, the app displays a message indicating that no results were found.
 If there is a connectivity issue, the app displays an error message and prompts the User to check their internet connection.
