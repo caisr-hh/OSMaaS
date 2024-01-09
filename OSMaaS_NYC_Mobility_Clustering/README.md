@@ -1,4 +1,4 @@
-# NYC_Mobility_Clustering
+# New York City Mobility Clustering Using kmeans Clustering
 
 - Artificial Intelligence (AI) provides the opportunity to analyze complex transportation domains from various perspectives. 
 Sustainability is one of the important transportation factors vital for a robust, fair, and efficient living environment and the livability of a city. 
